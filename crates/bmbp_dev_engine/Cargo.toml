@@ -1,0 +1,25 @@
+[package]
+name = "bmbp_dev_engine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "开发引擎"
+license.workspace = true
+readme.workspace = true
+homepage.workspace = true
+repository.workspace = true
+documentation.workspace = true
+[dependencies]
+# 序列化
+serde = { workspace = true }
+serde_json = { workspace = true }
+async-recursion = { workspace = true }
+futures = { workspace = true }
+convert_case = { workspace = true }
+dashmap = { workspace = true }
+# 全局变量
+tokio = { workspace = true }
+once_cell = { workspace = true }
+# 正则解析
+regex = { workspace = true }
+# 数据库封装

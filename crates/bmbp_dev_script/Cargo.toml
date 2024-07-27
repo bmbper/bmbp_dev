@@ -1,0 +1,14 @@
+[package]
+name = "bmbp_dev_script"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "开发脚本"
+license.workspace = true
+readme.workspace = true
+homepage.workspace = true
+repository.workspace = true
+documentation.workspace = true
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
